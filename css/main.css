@@ -203,11 +203,11 @@ display: none;
 }
 
 
-    .input-img-div-label-span-ico{
-      width: 100%;
-      max-width: 250px;
-      height: auto;
-    }
+.input-img-div-label-span-ico{
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+}
 
 .your-product-footer{
   display: flex;
