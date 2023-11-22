@@ -189,6 +189,19 @@ display: none;
   grid-area: 5/2/6/3;
 }
 
+.input-img-div{
+  width: 100%;
+  padding-top: 8px;
+  position: relative;
+  text-align: center;
+}
+
+.input-img-div-input{
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
 .input-img-div-label{
   width: 100%;
   padding: 11px 35px;
@@ -200,20 +213,18 @@ display: none;
   color: var(--color-small-white, #FFF);
   text-transform: uppercase;
   font-size: 14px;
-  
-}
-.input-img-div{
-  width: 100%;
-  padding-top: 32px;
-  position: relative;
-  text-align: center;
-}
+  }
 
-.input-img-div-input{
-  opacity: 0;
-  visibility: hidden;
-  position: absolute;
-}
+  .input-img-div-label:active{
+    background: var(#d43f6c);
+
+    }
+
+    .input-img-div-label-span-ico{
+      width: 100%;
+      max-width: 250px;
+      height: auto;
+    }
 
 .your-product-footer{
   display: flex;
