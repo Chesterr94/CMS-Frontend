@@ -202,23 +202,6 @@ display: none;
   position: absolute;
 }
 
-.input-img-div-label{
-  width: 100%;
-  padding: 11px 35px;
-  max-width: 250px;
-  height: 39px;
-  border-radius: 6px;
-  background: var(--primary, #6D5BD0);
-  border: none;
-  color: var(--color-small-white, #FFF);
-  text-transform: uppercase;
-  font-size: 14px;
-  }
-
-  .input-img-div-label:active{
-    background: var(#d43f6c);
-
-    }
 
     .input-img-div-label-span-ico{
       width: 100%;
