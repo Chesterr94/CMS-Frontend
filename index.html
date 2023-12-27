@@ -6,84 +6,87 @@
   <link rel="shortcut icon" href="/img/favicon/NicePng_lul-emote-png_1455614.png" type="image/png">
   <title>Ваши товары</title>
   <link rel="stylesheet" href="/css/index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
   <main class="main">
     <div class="container">
-      <div class="your-product">
-        <section class="your-product-header">
-          <h1 n class="your-product-header-title-h1">Добавить товар</h1>
-          <div class="your-product-header-line"></div>
-        </section>
-        <div class="your-product-window">
-          <ul class="your-product-window-list">
-            <li class="your-product-window-list-li name-product">
-              <label class="your-product-window-list-li-name-product label">
-                <span class="label-span-text">Наименование</span>
-                <input class="your-product-window-list-li-name-product-input input" type="text" name="name-product" required>
-              </label>
-            </li>
-            <li class="your-product-window-list-li category">
-              <label class="your-product-window-list-li-category label">
-                <span class="label-span-text">Категория</span>
-                <input class="your-product-window-list-li-category-input input" type="text" name="category">
-              </label>
-            </li>
-            <li class="your-product-window-list-li units">
-              <label class="your-product-window-list-li-units label">
-                <span class="label-span-text">Единицы измерения</span>
-                <input class="your-product-window-list-li-units-input input" type="text" name="units">
-              </label>
-            </li>
-            <li class="your-product-window-list-li discount">
-              <fieldset class="your-product-window-list-li-fieldset">
-                <label class="your-product-window-list-li-discount">
-                  <span class="label-span-text">Дисконт</span>
-                  <div class="your-product-window-list-li-discount-div">
-                    <input type="checkbox" class="your-product-window-list-li-discount-checkbox">
-                    <span class="fake-checkbox"></span>
-                    <input class="your-product-window-list-li-discount-input" type="text" name="discount" disabled>
-                  </div>
+      <div class="overlay">
+        <div class="your-product">
+          <section class="your-product-header">
+            <h1 n class="your-product-header-title-h1">Добавить товар</h1>
+            <div class="your-product-header-line"></div>
+          </section>
+          <div class="your-product-window">
+            <ul class="your-product-window-list">
+              <li class="your-product-window-list-li name-product">
+                <label class="your-product-window-list-li-name-product label">
+                  <span class="label-span-text">Наименование</span>
+                  <input class="your-product-window-list-li-name-product-input input" type="text" name="name-product" required>
                 </label>
-              </fieldset>
-            </li>
-            <li class="your-product-window-list-li description">
-              <label class="your-product-window-list-li-description label">
-                <span class="label-span-text">Описание</span>
-                <textarea class="your-product-window-list-li-description-textarea textarea-description" type="text" name="description"></textarea>
-              </label>
-            </li>
-            <li class="your-product-window-list-li quantity">
-              <label class="your-product-window-list-li-quantity label">
-                <span class="label-span-text">Количество</span>
-                <input class="your-product-window-list-li-quantity-input input" type="number" name="quantity">
-              </label>
-            </li>
-            <li class="your-product-window-list-li price">
-              <label class="your-product-window-list-li-price label">
-                <span class="label-span-text">Цена</span>
-                <input class="your-product-window-list-li-price-input input" type="number" name="price">
-              </label>
-            </li>
-            <li class="your-product-window-list-li button input-img">
-              <div class="input-img-div">
-                <input type="file"  name="image-product" id="image_product" class="input-img-div-input">
-                <label for="image_product" class="input-img-div-labe">
-                  <span class="input-img-div-label-span"><img class="input-img-div-label-span-ico" alt="Добавить изображение" src="/img/add_file.png"></span>
+              </li>
+              <li class="your-product-window-list-li category">
+                <label class="your-product-window-list-li-category label">
+                  <span class="label-span-text">Категория</span>
+                  <input class="your-product-window-list-li-category-input input" type="text" name="category">
                 </label>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="your-product-footer">
-          <div class="your-product-footer-price">
-            <p class="your-product-footer-price-total-cost">Итоговая стоимость:</p>
-            <div class="your-product-footer-price-total-cost-div">
-              <p class="your-product-footer-price-total-cost-calculation">$ 900.00</p>
-            </div>
+              </li>
+              <li class="your-product-window-list-li units">
+                <label class="your-product-window-list-li-units label">
+                  <span class="label-span-text">Единицы измерения</span>
+                  <input class="your-product-window-list-li-units-input input" type="text" name="units">
+                </label>
+              </li>
+              <li class="your-product-window-list-li discount">
+                <fieldset class="your-product-window-list-li-fieldset">
+                  <label class="your-product-window-list-li-discount">
+                    <span class="label-span-text">Дисконт</span>
+                    <div class="your-product-window-list-li-discount-div">
+                      <input type="checkbox" class="your-product-window-list-li-discount-checkbox">
+                      <span class="fake-checkbox"></span>
+                      <input class="your-product-window-list-li-discount-input" type="text" name="discount" disabled>
+                    </div>
+                  </label>
+                </fieldset>
+              </li>
+              <li class="your-product-window-list-li description">
+                <label class="your-product-window-list-li-description label">
+                  <span class="label-span-text">Описание</span>
+                  <textarea class="your-product-window-list-li-description-textarea textarea-description" type="text" name="description"></textarea>
+                </label>
+              </li>
+              <li class="your-product-window-list-li quantity">
+                <label class="your-product-window-list-li-quantity label">
+                  <span class="label-span-text">Количество</span>
+                  <input class="your-product-window-list-li-quantity-input input" type="number" name="quantity">
+                </label>
+              </li>
+              <li class="your-product-window-list-li price">
+                <label class="your-product-window-list-li-price label">
+                  <span class="label-span-text">Цена</span>
+                  <input class="your-product-window-list-li-price-input input" type="number" name="price">
+                </label>
+              </li>
+              <li class="your-product-window-list-li button input-img">
+                <div class="input-img-div">
+                  <input type="file"  name="image-product" id="image_product" class="input-img-div-input">
+                  <label for="image_product" class="input-img-div-labe">
+                    <span class="input-img-div-label-span"><img class="input-img-div-label-span-ico" alt="Добавить изображение" src="/img/add_file.png"></span>
+                  </label>
+                </div>
+              </li>
+            </ul>
           </div>
-          <button class="your-product-footer-button">Добавить товар</button>
+          <div class="your-product-footer">
+            <div class="your-product-footer-price">
+              <p class="your-product-footer-price-total-cost">Итоговая стоимость:</p>
+              <div class="your-product-footer-price-total-cost-div">
+                <p class="your-product-footer-price-total-cost-calculation">$ 900.00</p>
+              </div>
+            </div>
+            <button class="your-product-footer-button">Добавить товар</button>
+          </div>
         </div>
       </div>
     </div>
